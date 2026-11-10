@@ -34,4 +34,9 @@ public class Mood {
         this.notes = newNote;
     }
 
+    @Override
+    public String toString(){
+        return(name + "-" + date + "-"+ time +"-" +notes);
+    }
+
 }
